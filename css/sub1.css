@@ -1,4 +1,18 @@
 /*메인 컬러 #4622FF #1A237E #F5F5F5(배경) #424242(글자) #3D77FF */
+@font-face {
+    font-family: 'Paperozi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paperozi2';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
 body {
     background-color: #F5F5F5;
 }
@@ -61,3 +75,74 @@ header nav {
     flex: 1;
     text-align: center;
 }
+
+h2 {
+    font-family: 'Paperozi2';
+    margin: 2rem; /* 제목과 폼 사이의 간격을 벌려줌 */
+    text-align: center;
+}
+
+section fieldset {
+    width: 50rem;
+    background-color: #ffffff;
+    border: 0;
+}
+
+main {
+    font-family: 'Paperozi';
+    display: grid;
+    place-items: center; /* 가로, 세로 동시에 가운데 정렬 */
+}
+
+/* 1. 전체 폼(fieldset) 스타일 수정 */
+section fieldset {
+    width: 100%; /* 부모(main grid)에 맞춰 가득 채우되 */
+    max-width: 45rem; /* 너무 넓어지지 않게 최대 너비 설정 */
+    background-color: #ffffff;
+    border: none; /* 테두리 제거 */
+    border-radius: 12px; /* 둥근 모서리 */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08); /* 부드러운 그림자 효과 */
+    padding: 2.5rem; /* 내부 여백 추가 */
+    box-sizing: border-box; /* 패딩 포함 너비 계산 */
+}
+
+/* 폼 제목 스타일 */
+section fieldset h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+    text-align: left; /* 제목은 왼쪽 정렬 */
+}
+
+/* 2 & 4. 섹션 구분 스타일 */
+section fieldset section {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #eee; /* 흐린 구분선 */
+    padding-bottom: 1.5rem;
+}
+section fieldset section:last-of-type {
+    border-bottom: none; /* 마지막 섹션은 선 제거 */
+}
+
+/* 레이블 스타일 */
+fieldset > section label {
+    font-size: 0.95rem;
+    color: #616161;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+/* 3. 입력창(input, textarea) 스타일 */
+fieldset textarea {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #fcfcfc;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
+}
+

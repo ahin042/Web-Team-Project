@@ -44,9 +44,9 @@ nav ul li a {
     color: white;
 }
 
-ul{
+ul{ 
     background-color: #242424;
-}
+} 
 
 header nav {
     flex: 1;
