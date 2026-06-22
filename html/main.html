@@ -3,44 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>우리동네 PM 안심 지도</title>
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <a href="https://www.flaticon.com/kr/free-icons/" title="킥보드 아이콘">킥보드 아이콘 제작자: manshagraphics - Flaticon</a>
 </head>
 <body>
     <header>
-        <div>
-            <h1>우리동네 안심 PM 지도</h1>
-            <a href="#sitemap">사이트맵</a>
-            <input type="text" placeholder="검색바">
+        <div id="header">
+            <div id="header-section1">
+                <img src="../images/free-icon-transport-13750528.png" class="icon">
+                <h1>우리동네 PM 안심 지도</h1>
+            </div>
+            <div id="header-section2">
+                <a href="#" id="sitemap">사이트맵</a>
+                <input type="text" placeholder="검색어를 입력하세요" id="searchbox">
+            </div>
         </div>
-
+        
         <nav>
-            <ul>
-                <li><a href="#">신고 접수</a></li>
-                <li><a href="#">접수건 조회</a></li>
-                <li><a href="#">우리동네 지도조회</a></li>
-                <li><a href="#">우리동네 PM생활</a></li>
-                <li><a href="#">QnA</a></li>
-            </ul
+            <ul class="mainmenu">
+                <li>신고 접수
+                    <ol class="submenu">
+                        <li>불법주차 신고 접수하기</li>
+                        <li>안전위험구역 신고 접수하기</li>
+                    </ol>
+                </li>
+
+                <li>접수건 조회
+                    <ol class="submenu">
+                        <li>내 접수건 조회하기</li>
+                        <li>우리동네 접수건 조회하기</li>
+                    </ol>
+                </li>
+                    
+                <li>우리동네 지도조회
+                    <ol class="submenu">
+                        <li>우리동네 안심구역지도 조회하기</li>
+                        <li>우리동네 위험구역지도 조회하기</li>
+                    </ol>
+                </li>
+                
+                <li>우리동네 PM생활
+                    <ol class="submenu">
+                        <li>우리동네 PM 커뮤니티</li>
+                        <li>우리동네 전문가에게 질문하기</li>
+                    </ol>
+                </li>
+                
+                <li>QnA
+                    <ol class="submenu">
+                        <li>FAQ</li>
+                        <li>모빌리티사에 질문하기</li>
+                    </ol>
+                </li>
+            </ul>
         </nav>
     </header>
     <main>
+        <section id="section01">
+            <div id="slogan">
+                <h2>오늘도 안심하고 달릴 수 있도록,</h2>            
+                <h2>우리동네 PM 안심 지도</h2>
+            </div>
+        </section>
+        <section id="section02">
+            <div class="content">
+        
+                <div id="cardnews">
+                    
+                    <div class="cardnews">
+                        <div class="data-tag">🚨 card news 🚨</div><br>
+                        <h3>📈 김해서 승용차와 킥보드 충돌, 중학생 1명 숨져 | 연합뉴스</h3>
+                        <p>지난 14일 오후 9시 50분께 경남 김해시 외동사거리에서 김해생명과학고등학교 방면으로 주행하던 크루즈 승용차와 킥보드가 충돌했다. 이 사고로 킥보드를 몰던 중학교 1학년 A(13)군이 심정지 상태로 병원에 이송됐으나 끝내 숨졌다.</p>
+                    </div>
+                    <div class="cardnews">
+                        <div class="data-tag">🚨 card news 🚨</div><br>
+                        <h3>📈 [전국 레이더] '잇단 사망 사고'…보행자·탑승자 안전 위협하는 전동 킥보드 | 연합뉴스</h3>
+                        <p>전동 킥보드를 타던 이용자가 사고로 숨지거나, 질주하는 전동 킥보드에 보행자가 치여 숨지는 등 관련 인명사고가 끊이지 않고 있다. 정부와 지자체는 전동 킥보드의 최고 속도를 줄이거나 인증 절차를 강화하는 등 여러 대책을 마련하고 있지만 이용객들의 무면허 운전이나 다인 탑승 등 사고를 유발하는 요인들을 원천 차단하기는 어려운 실정이다.</p>
+                    </div>
+                    <!-- <div class="cardnews">
+                        <div class="data-tag">🚨 card news 🚨</div><br>
+                        <h3>📈 '30대 엄마 중태' 킥보드 사고…가해 중학생·대여업체 송치 | 연합뉴스</h3>
+                        <p>30대 엄마가 딸을 지키려다 중태에 빠진 '인천 전동킥보드 사고'가 발생한 지 5개월 만에 가해 중학생과 킥보드 대여 업체 관계자가 검찰에 넘겨졌다. 인천 연수경찰서는 교통사고처리특례법상 치상과 도로교통법상 무면허 운전 혐의로 중학생 A양을 불구속 입건해 검찰에 송치했다고 13일 밝혔다.</p>
+                    </div> -->
 
+                </div>
+
+                <div class="side-content">
+                    <div class="notice-box">
+                        <h3>📢 공지사항</h3>
+                        <ul class="notice-list">
+                            <li>
+                                <a href="#">[공지] 우리동네 PM 안심 지도 정식 서비스 오픈 안내</a>
+                                <span class="noti">06.22</span>
+                            </li>
+                            <li>
+                                <a href="#">[안내] 전동 킥보드 불법 주차 집중 단속 구역 안내</a>
+                                <span class="noti">06.18</span>
+                            </li>
+                            <li>
+                                <a href="#">[캠페인] 보행자를 배려하는 올바른 주차 매너 수칙</a>
+                                <span class="noti">06.12</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="FAQ">
+                        <div class="faq-text">
+                            <h4>궁금한 점이 있으신가요?</h4>
+                            <p>자주 묻는 질문(FAQ)에서 빠르게 해결책을 찾아보세요.</p>
+                        </div>
+                        <botton>자주 묻는 질문 바로가기</botton>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
     <footer>
-        <div>
-            <span>[파비콘]</span>
-            <strong>우리 동네 안심 PM 지도</strong> 
+        <div class="footer-logo">
+            <img src="../images/free-icon-transport-13750528.png" class="icon">
+            <strong>우리 동네 PM 안심 지도</strong> 
         </div>
-        <p>
+        <p class="footer-links">
             <a href="#">개인정보 처리방침</a> | 
             <a href="#">저작권보호정책</a> | 
             <a href="#">이용약관</a> | 
             <a href="#">이메일주소무단수집거부</a>
         </p>
-        <p>대표 E-mail : </p>
+        <p class="footer-email">대표 E-mail : </p>
+        <p style="font-size: 11px; color: #aaa; margin-top: 10px;">
+            <a href="https://www.flaticon.com/kr/free-icons/" title="킥보드 아이콘" target="_blank" style="color: #aaa;">킥보드 아이콘 출처 : Flaticon</a>            
+        </p>
     </footer>
 </body>
 </html>

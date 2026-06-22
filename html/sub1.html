@@ -3,36 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/sub1.css">
+    <link rel="stylesheet" href="../css/main.css">
     <title>우리동네 안심 PM 지도</title>
 </head>
 <body>
     <header>
-        <div>
-            <h1>우리동네 안심 PM 지도</h1>
-            <a href="#sitemap">사이트맵</a>
-            <input type="text" placeholder="검색바">
+        <div id="header">
+            <div id="header-section1">
+                <img src="../images/free-icon-transport-13750528.png" class="icon">
+                <h1>우리동네 PM 안심 지도</h1>
+            </div>
+            <div id="header-section2">
+                <a href="#" id="sitemap">사이트맵</a>
+                <input type="text" placeholder="검색어를 입력하세요" id="searchbox">
+            </div>
         </div>
+        
         <nav>
-            <ul>
-                <li><a href="#">신고 접수</a></li>
-                <li><a href="#">접수건 조회</a></li>
-                <li><a href="#">우리동네 지도조회</a></li>
-                <li><a href="#">우리동네 PM생활</a></li>
-                <li><a href="#">QnA</a></li>
+            <ul class="mainmenu">
+                <li>신고 접수
+                    <ol class="submenu">
+                        <li>불법주차 신고 접수하기</li>
+                        <li>안전위험구역 신고 접수하기</li>
+                    </ol>
+                </li>
+
+                <li>접수건 조회
+                    <ol class="submenu">
+                        <li>내 접수건 조회하기</li>
+                        <li>우리동네 접수건 조회하기</li>
+                    </ol>
+                </li>
+                    
+                <li>우리동네 지도조회
+                    <ol class="submenu">
+                        <li>우리동네 안심구역지도 조회하기</li>
+                        <li>우리동네 위험구역지도 조회하기</li>
+                    </ol>
+                </li>
+                
+                <li>우리동네 PM생활
+                    <ol class="submenu">
+                        <li>우리동네 PM 커뮤니티</li>
+                        <li>우리동네 전문가에게 질문하기</li>
+                    </ol>
+                </li>
+                
+                <li>QnA
+                    <ol class="submenu">
+                        <li>FAQ</li>
+                        <li>모빌리티사에 질문하기</li>
+                    </ol>
+                </li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section>
-            <h2>불법주차 신고 접수하기</h2>
+            <h2 id="title">불법주차 신고 접수하기 📄</h2>
             <form>
                 <fieldset>
                 <legend>신고 제목 및 작성자 정보</legend>
-                <label for="title">신고 제목: </label>
-                <input type="text" id="title" name="title"><br><br>
+                <label for="title">신고 제목 : </label>
+                <input type="text" name="title"><br><br>
                 
-                <label for="writer">작성자: </label>
+                <label for="writer">작성자 : </label>
                 <input type="text" id="writer" name="writer">
             </fieldset>
             </form>
@@ -42,7 +78,7 @@
             <form>
                 <fieldset>
                 <legend>신고 내용 및 사진 작성</legend>
-                <label for="content">신고 내용:</label><br>
+                <label for="content">신고 내용 : </label><br>
                 <textarea id="content" name="content" rows="10" cols="50" placeholder="신고내용을 입력해주세요."></textarea>
                 <br><br>
                 <label for="file">사진 첨부 : </label>
@@ -54,17 +90,20 @@
     </main>
 
     <footer>
-        <div>
-            <span>[파비콘]</span>
-            <strong>우리 동네 안심 PM 지도</strong>
+        <div class="footer-logo">
+            <img src="../images/free-icon-transport-13750528.png" class="icon">
+            <strong>우리 동네 PM 안심 지도</strong> 
         </div>
-        <p>
-            <a href="#">개인정보 처리방침 | </a>
-            <a href="#">저작권보호정책 | </a>
-            <a href="#">이용약관 | </a>
+        <p class="footer-links">
+            <a href="#">개인정보 처리방침</a> | 
+            <a href="#">저작권보호정책</a> | 
+            <a href="#">이용약관</a> | 
             <a href="#">이메일주소무단수집거부</a>
         </p>
-        <p>대표 E-mail : </p>
+        <p class="footer-email">대표 E-mail : </p>
+        <p style="font-size: 11px; color: #aaa; margin-top: 10px;">
+            <a href="https://www.flaticon.com/kr/free-icons/" title="킥보드 아이콘" target="_blank" style="color: #aaa;">킥보드 아이콘 출처 : Flaticon</a>            
+        </p>
     </footer>
 
 </body>
