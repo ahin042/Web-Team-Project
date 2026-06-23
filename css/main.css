@@ -268,15 +268,16 @@ h3 {
     color: #cccccc;
 }
 
-.botton {
+#QnA {
     text-align: center;
     background-color: #3d77ff;
     color: white;
     padding: 12px 0;
+    border: none;
     border-radius: 8px;
     font-size: 14px;
 }
 
-.botton:hover {
+#QnA:hover {
     background-color: #2159db;
 }
