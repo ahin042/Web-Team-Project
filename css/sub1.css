@@ -1,13 +1,10 @@
 /*메인 컬러 #4622FF #1A237E #F5F5F5(배경) #424242(글자) #3D77FF */
+/* main h2 = color: #3261d1;*/
 @font-face {
     font-family: 'Paperozi';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2');
     font-weight: 400;
     font-display: swap;
-}
-
-body {
-    background-color: #ffffff;
 }
 
 * {
@@ -17,7 +14,7 @@ body {
 
 #title {
     font-family: 'A2z';
-    margin: 2rem; /* 제목과 폼 사이의 간격을 벌려줌 */
+    margin: 30px;
     text-align: center;
 }
 
@@ -27,16 +24,24 @@ section fieldset {
     border: 0;
 }
 
+form {
+    width: 700px;
+}
+
+#form2 {
+    margin-bottom: 30px;
+}
+
 main {
     font-family: 'Paperozi';
     display: grid; /*그리드 사용*/
     place-items: center; /* 가로, 세로 동시에 가운데 정렬 */
 }
 
-/* 1. 전체 폼 스타일 수정 */
+/* 1. 전체 폼(fieldset) 스타일 수정 */
 section fieldset {
-    width: 100%;
-    max-width: 45rem; /* 최대 너비 설정 */
+    width: 100%; /* 부모(main grid)에 맞춰 가득 채우되 */
+    max-width: 45rem; /* 너무 넓어지지 않게 최대 너비 설정 */
     background-color: #ffffff;
     border: none; /* 테두리 제거 */
     border-radius: 12px; /* 둥근 모서리 */
@@ -45,21 +50,14 @@ section fieldset {
     box-sizing: border-box; /* 패딩 포함 너비 계산 */
 }
 
-/* 폼 제목 스타일 */
-section fieldset h2 {
-    font-size: 1.8rem;
+form fieldset legend {
+    font-size: 1.5rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     color: #2c3e50;
-    text-align: left; /* 제목은 왼쪽 정렬 */
+    background-color: yellow;
 }
 
-/* 섹션 구분 스타일 */
-section fieldset section {
-    margin-bottom: 2rem;
-    border-bottom: 1px solid #eee; /* 흐린 구분선 */
-    padding-bottom: 1.5rem;
-}
 section fieldset section:last-of-type {
     border-bottom: none; /* 마지막 섹션은 선 제거 */
 }
@@ -72,7 +70,7 @@ fieldset > section label {
     font-weight: 600;
 }
 
-/* 3. 입력창 스타일 */
+/* 3. 입력창(input, textarea) 스타일 */
 fieldset textarea {
     width: 100%;
     padding: 10px 15px;
@@ -84,3 +82,93 @@ fieldset textarea {
     box-sizing: border-box;
 }
 
+#content {
+    margin: 10px 0;
+    border: none;
+    outline: none;@font-face {
+    font-family: 'Paperozi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    font-family: 'A2z';
+    margin: 30px;
+    text-align: center;
+}
+
+section fieldset {
+    width: 50rem;
+    background-color: #ffffff;
+    border: 0;
+}
+
+form {
+    width: 700px;
+}
+
+#form2 {
+    margin-bottom: 30px;
+}
+
+main {
+    font-family: 'Paperozi';
+    display: grid; /*그리드 사용*/
+    place-items: center; /* 가로, 세로 동시에 가운데 정렬 */
+}
+
+/* 1. 전체 폼(fieldset) 스타일 수정 */
+section fieldset {
+    width: 100%; /* 부모(main grid)에 맞춰 가득 채우되 */
+    max-width: 45rem; /* 너무 넓어지지 않게 최대 너비 설정 */
+    background-color: #ffffff;
+    border: none; /* 테두리 제거 */
+    border-radius: 12px; /* 둥근 모서리 */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08); /* 부드러운 그림자 효과 */
+    padding: 2.5rem; /* 내부 여백 추가 */
+    box-sizing: border-box; /* 패딩 포함 너비 계산 */
+}
+
+form fieldset legend {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+section fieldset section:last-of-type {
+    border-bottom: none; /* 마지막 섹션은 선 제거 */
+}
+
+/* 레이블 스타일 */
+fieldset > section label {
+    font-size: 0.95rem;
+    color: #616161;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+/* 3. 입력창(input, textarea) 스타일 */
+fieldset textarea {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 1px solid #4f4f4f;
+    border-radius: 6px;
+    background-color: #fcfcfc;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
+}
+
+#content {
+    margin: 10px 0;
+    border: none;
+    outline: none;
+}
+}

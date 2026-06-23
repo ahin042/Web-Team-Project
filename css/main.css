@@ -37,7 +37,7 @@ a {
     border-bottom: 1px solid #eee;
 }
 
-#header-section1, #header-section2 {
+#header-section1 > a, #header-section2 {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -50,7 +50,7 @@ a {
 
 h1 {
     font-family: 'OngleipParkDahyeon';
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -120,7 +120,7 @@ nav {
 
 h2 {
     font-size: 55px;
-    color: #1a237e;
+    color: #3960bb;
     font-family: 'A2z';
 }
 

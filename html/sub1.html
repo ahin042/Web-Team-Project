@@ -2,16 +2,17 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/sub1.css">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/sub1.css">
+    <link rel="icon" href="../images/free-icon-transport-13750528.png">
     <title>우리동네 안심 PM 지도</title>
 </head>
 <body>
     <header>
         <div id="header">
-            <div id="header-section1">
+            <div id="header-section1"><a href="../html/main.html">
                 <img src="../images/free-icon-transport-13750528.png" class="icon">
-                <h1>우리동네 PM 안심 지도</h1>
+                <h1>우리동네 PM 안심 지도</h1></a>
             </div>
             <div id="header-section2">
                 <a href="#" id="sitemap">사이트맵</a>
@@ -62,28 +63,28 @@
     <main>
         <section>
             <h2 id="title">불법주차 신고 접수하기 📄</h2>
-            <form>
+            <form id="form1">
                 <fieldset>
-                <legend>신고 제목 및 작성자 정보</legend>
-                <label for="title">신고 제목 : </label>
-                <input type="text" name="title"><br><br>
-                
-                <label for="writer">작성자 : </label>
-                <input type="text" id="writer" name="writer">
-            </fieldset>
+                    <legend>신고 제목 및 작성자 정보</legend>
+                    <label for="title">신고 제목 : </label>
+                    <input type="text" name="title"><br><br>
+                    
+                    <label for="writer">작성자 : </label>
+                    <input type="text" id="writer" name="writer">
+                </fieldset>
             </form>
         </section>
         <br>
         <section>
-            <form>
+            <form id="form2">
                 <fieldset>
-                <legend>신고 내용 및 사진 작성</legend>
-                <label for="content">신고 내용 : </label><br>
-                <textarea id="content" name="content" rows="10" cols="50" placeholder="신고내용을 입력해주세요."></textarea>
-                <br><br>
-                <label for="file">사진 첨부 : </label>
-                <input type="file" id="file" name="file">
-                <button type="submit">제출하기</button>
+                    <legend>신고 내용 및 사진 작성</legend>
+                    <label for="content">신고 내용 : </label>
+                    <textarea id="content" name="content" rows="10" cols="50" placeholder="내용을 입력해주세요."></textarea>
+                    <br><br>
+                    <label for="file">사진 첨부 : </label>
+                    <input type="file" id="file" name="file">
+                    <button type="submit">제출하기</button>
             </fieldset>
             </form>
         </section>
