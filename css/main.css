@@ -21,7 +21,6 @@
 body {
     width: 100%;
     margin: 0 auto;
-    /* min-height: 100vh; */
 }
 
 a {
@@ -50,7 +49,7 @@ a {
 
 h1 {
     font-family: 'OngleipParkDahyeon';
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -64,7 +63,6 @@ h1 {
 nav {
     width: 100%;
     padding: 15px 0;
-    /* border-bottom: 1px solid #eee; */
 }
 
 .mainmenu {
@@ -120,52 +118,14 @@ nav {
 
 h2 {
     font-size: 55px;
-    color: #3960bb;
+    color: #3261d1;
     font-family: 'A2z';
-}
-
-footer {
-    background-color: #fafafa;
-    padding: 30px 40px;
-    border-top: 1px solid #eee;
-    font-size: 14px;
-}
-
-.footer-logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 15px;
-}
-
-.footer-logo .icon {
-    width: 35px;
-}
-
-.footer-links {
-    margin-bottom: 10px;
-}
-
-.footer-links a {
-    color: #555;
-    margin: 0 5px;
-}
-
-.footer-links a:first-child {
-    margin-left: 0;
-}
-
-.footer-email {
-    color: #777;
-}
-
-#section02 {
-    width: 100%;
 }
 
 .content {
     display: flex;
     gap: 30px;
+    justify-content: center;
     align-items: stretch;
 }
 
@@ -175,7 +135,6 @@ footer {
     border: 1px solid #eef0f2;
     border-radius: 12px;
     padding: 25px 30px;
-    margin-left: 50px;
     margin-bottom: 15px;
 }
 
@@ -196,7 +155,6 @@ footer {
     border-radius: 12px;
     padding: 25px 30px;
     width: 600px;
-    margin-right: 50px;
     margin-bottom: 15px;
 }
 
@@ -268,16 +226,51 @@ h3 {
     color: #cccccc;
 }
 
-#QnA {
+button {
     text-align: center;
     background-color: #3d77ff;
     color: white;
     padding: 12px 0;
-    border: none;
     border-radius: 8px;
     font-size: 14px;
 }
 
-#QnA:hover {
+button:hover {
     background-color: #2159db;
+}
+
+footer {
+    background-color: #fafafa;
+    padding: 30px 40px;
+    border-top: 1px solid #eee;
+    font-size: 14px;
+}
+
+.footer-logo {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-logo .icon {
+    width: 35px;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #555;
+    margin: 0 5px;
+}
+
+.footer-links a:first-child {
+    margin-left: 0;
+}
+
+.footer-email {
+    color: #777;
 }

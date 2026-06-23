@@ -1,5 +1,11 @@
 fieldset {
     width: 1300px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px #00000014;
+    padding: 2.5rem;
+    margin-bottom: 100px;
 }
 
 #section02 {
@@ -10,7 +16,6 @@ fieldset {
 .t1 {
     border-collapse: separate;
     border-spacing: 20px;
-    margin: 0 auto;
 }
 
 .t1 td {
@@ -21,6 +26,15 @@ fieldset {
     overflow: hidden;
 }
 
+.t1 td img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    flex-grow: 1;
+}
+
 .card-header {
     background-color: #ffe082;
     font-weight: bold;
@@ -28,25 +42,4 @@ fieldset {
     padding: 20px 0;
     text-align: center;
     width: 100%;
-}
-
-.card-body {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    background-color: #ffffff;
-}
-
-.card-body img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.card-body p {
-    font-size: 1.2rem;
-    font-weight: bold;
 }
