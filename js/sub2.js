@@ -10,9 +10,9 @@ welocation.onclick = function() {
     cardHeader[2].innerHTML = "📍 구지중학교 후문"
     cardHeader[3].innerHTML = "📍 벚꽃공원"
 
-    mapImages[0].src = "./안전구역-4.jpeg";
-    mapImages[1].src = "./안전구역-3.jpg";
-    mapImages[2].src = "./안전구역-2.jpg";
-    mapImages[3].src = "./안전구역-1.jpg";
+    mapImages[0].src = "../images/안전구역-4.jpeg";
+    mapImages[1].src = "../images/안전구역3.jpg";
+    mapImages[2].src = "../images/안전구역2.jpg";
+    mapImages[3].src = "../images/안전구역1.jpg";
 
 }
