@@ -268,7 +268,7 @@ h3 {
     color: #cccccc;
 }
 
-botton {
+.botton {
     text-align: center;
     background-color: #3d77ff;
     color: white;
@@ -277,6 +277,6 @@ botton {
     font-size: 14px;
 }
 
-botton:hover {
+.botton:hover {
     background-color: #2159db;
 }
