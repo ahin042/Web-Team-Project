@@ -35,7 +35,6 @@ form fieldset legend {
 fieldset textarea {
     width: 100%;
     padding: 10px 15px;
-    font-size: 1rem;
     border: 1px solid #4f4f4f;
     border-radius: 6px;
     background-color: #fcfcfc;
@@ -45,21 +44,19 @@ fieldset textarea {
 #content {
     margin: 10px 0;
     border: none;
-    outline: none;
 }
 
 #button {
     background-color: #517dc2; 
     color: white;             
-    border: none;
-    font-size: 1rem;             
+    border: none;           
     padding: 10px 20px;       
     cursor: pointer; /* 마우스를 올렸을 때 포인터 모양으로 변경 */
     border-radius: 4px;
-    width: 6rem;
-    height: 2.5rem;
+    width: 100px;
+    height: 30px;
     display: block;
-    margin: 20px auto 0;
+    margin: 20px auto;
 }
 
 #button:hover {
