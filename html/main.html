@@ -2,31 +2,31 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-bold-straight/css/uicons-bold-straight.css'>
-    <link rel="icon" href="../images/free-icon-transport-13750528.png">
     <title>우리동네 PM 안심 지도</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-bold-straight/css/uicons-bold-straight.css'>
+    <link rel="icon" href="../images/free-icon-transport-13750528.png"> <!-- 파비콘 -->
 </head>
 <body>
-    <header>
+    <header> <!-- 문서구조설계 -->
         <div id="header">
-            <div id="header-section1"><a href="../html/main.html">
-                <img src="../images/free-icon-transport-13750528.png" class="icon">
+            <div id="header-section1"><a href="../html/main.html"> <!-- 메인 페이지로 이동 -->
+                <img src="../images/free-icon-transport-13750528.png" class="icon"> <!-- 파비콘 -->
                 <h1>우리동네 PM 안심 지도</h1></a>
             </div>
             <div id="header-section2">
-                <a href="#" id="sitemap">사이트맵</a>
+                <a href="#">사이트맵</a>
                 <input type="text" placeholder="검색어를 입력하세요" id="searchbox">
                 <i class="fi fi-bs-search"></i>
             </div>
         </div>
         
         <nav>
-            <ul class="mainmenu">
+            <ul class="mainmenu"> <!-- 상단 메뉴 -->
                 <li>신고 접수
-                    <ol class="submenu">
-                        <li><a href="../html/sub1.html">불법주차 신고 접수하기</a></li>
+                    <ol class="submenu"> <!-- 펼침 메뉴 -->
+                        <li><a href="../html/Sub1.html">불법주차 신고 접수하기</a></li>
                         <li>안전위험구역 신고 접수하기</li>
                     </ol>
                 </li>
@@ -40,7 +40,7 @@
                     
                 <li>우리동네 지도조회
                     <ol class="submenu">
-                        <li><a href="../html/sub2.html">우리동네 안심구역지도 조회하기</a></li>
+                        <li><a href="../html/Sub2.html">우리동네 안심구역지도 조회하기</a></li>
                         <li>우리동네 위험구역지도 조회하기</li>
                     </ol>
                 </li>
@@ -61,7 +61,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main> <!-- 문서구조설계 -->
         <section id="section01">
             <div id="slogan">
                 <h2>오늘도 안심하고 달릴 수 있도록,</h2>            
@@ -89,7 +89,7 @@
                 <div class="side-content">
                     <div class="notice-box">
                         <h3>📢 공지사항</h3>
-                        <ul class="notice-list">
+                        <ul class="notice-list"> <!-- 목록 -->
                             <li>
                                 <a href="#">[공지] 우리동네 PM 안심 지도 정식 서비스 오픈 안내</a>
                                 <span class="noti">06.22</span>
@@ -110,14 +110,14 @@
                             <h4>궁금한 점이 있으신가요?</h4>
                             <p>자주 묻는 질문(FAQ)에서 빠르게 해결책을 찾아보세요.</p>
                         </div>
-                        <button style="border: none;">자주 묻는 질문 바로가기</button>
+                        <button>자주 묻는 질문 바로가기</button>
                     </div>
                 </div>
 
             </div>
         </section>
     </main>
-    <footer>
+    <footer> <!-- 문서구조설계 -->
         <div class="footer-logo">
             <img src="../images/free-icon-transport-13750528.png" class="icon">
             <strong>우리 동네 PM 안심 지도</strong> 
@@ -129,7 +129,9 @@
             <a href="#">이메일주소무단수집거부</a>
         </p>
         <p class="footer-location" style="color: #555">(43010) 대구광역시 달성군 구지면 창리로11길 93 </p>
-        <p class="source">
+        <p id="name">ⓒ Copyright 1201권아인, 1215장준우</p> <!-- 저작권자 -->
+        <p id="tel">대표 연락처 : 010-3177-9288</p> <!-- 연락처 -->
+        <p class="source"> <!-- 저작권 표기 -->
             <a href="https://www.flaticon.com/kr/free-icons/" title="킥보드 아이콘" target="_blank" style="color: #aaa;">킥보드 아이콘 출처 : Flaticon</a>            
         </p>
         <p class="source">

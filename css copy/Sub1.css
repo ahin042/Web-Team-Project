@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Paperozi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+section .fieldset01 {
+    width: 700px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px #00000014;
+    padding: 2.5rem;
+}
+
+#form2 {
+    margin-bottom: 30px;
+}
+
+main {
+    font-family: 'Paperozi';
+    display: grid; /* 그리드 레이아웃을 사용하여 자식 요소(폼 카드)를 정중앙에 배치 */
+    place-items: center;
+}
+
+form fieldset legend {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #19242f;
+    background-color: #b5cefd
+}
+
+section fieldset section:last-of-type {
+    border-bottom: none;
+}
+
+fieldset section label {
+    font-size: 0.95rem;
+    color: #616161;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+fieldset textarea {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 1px solid #4f4f4f;
+    border-radius: 6px;
+    background-color: #fcfcfc;
+    box-sizing: border-box;
+}
+
+#content {
+    margin: 10px 0;
+    border: none;
+    outline: none;
+}
+
+#button {
+    background-color: #517dc2; 
+    color: white;             
+    border: none;
+    font-size: 1rem;             
+    padding: 10px 20px;       
+    cursor: pointer; /* 마우스를 올렸을 때 포인터 모양으로 변경 */
+    border-radius: 4px;
+    width: 6rem;
+    height: 2.5rem;
+    display: block;
+    margin: 20px auto 0;
+}
+
+#button:hover {
+    background-color: #3f5f94;
+}
+
+
+#file-box {
+    padding: 5px 10px;
+    border-radius: 4px;   
+    background-color: #e0e0e0
+}

@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우리동네 PM 안심 지도</title>
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/sub1.css">
-    <link rel="stylesheet" href="../css/sub2.css">
+    <link rel="stylesheet" href="../css/Sub1.css">
+    <link rel="stylesheet" href="../css/Sub2.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-bold-straight/css/uicons-bold-straight.css'>
     <link rel="icon" href="../images/free-icon-transport-13750528.png">
-    <title>우리동네 PM 안심 지도</title>
 </head>
 <body>
     <header>
@@ -28,7 +28,7 @@
             <ul class="mainmenu">
                 <li>신고 접수
                     <ol class="submenu">
-                        <li><a href="../html/sub1.html">불법주차 신고 접수하기</a></li>
+                        <li><a href="../html/Sub1.html">불법주차 신고 접수하기</a></li>
                         <li>안전위험구역 신고 접수하기</li>
                     </ol>
                 </li>
@@ -42,7 +42,7 @@
                     
                 <li>우리동네 지도조회
                     <ol class="submenu">
-                        <li><a href="../html/sub2.html">우리동네 안심구역지도 조회하기</a></li>
+                        <li><a href="../html/Sub2.html">우리동네 안심구역지도 조회하기</a></li>
                         <li>우리동네 위험구역지도 조회하기</li>
                     </ol>
                 </li>
@@ -63,33 +63,32 @@
             </ul>
         </nav>
     </header>
-
     <main>
         <section id="section01">
             <h2>우리동네 안전구역지도 조회하기 🗺️</h2>
         </section>
         <section id="section02">
-            <form>
+            <form> <!-- 폼 -->
                 <fieldset>
                     <legend id="location">현재 지역 : <밀양시 삼문동></legend>
-                    <table class="t1">
-                        <tbody>
+                    <table class="t1"> <!-- 표 -->
+                        <tbody> 
                             <tr>
                                 <td>
                                     <div class="card-header">📍 삼문송림공원</div>
-                                    <img src="../images/안전구역-1.jpg" class="map-img">
+                                    <img src="../images/안전구역-1.jpg" alt="우리동네 안전구역지도 : 삼문송림공원 이미지" class="map-img"> <!-- 이미지 -->
                                 </td>
                                 <td>
                                     <div class="card-header">📍 밀양중학교 정문</div>
-                                    <img src="../images/안전구역-2.jpg" class="map-img">
+                                    <img src="../images/안전구역-2.jpg" alt="우리동네 안전구역지도 : 밀양중학교 정문 이미지" class="map-img">
                                 </td>
                                 <td>
                                     <div class="card-header">📍 밀양아리랑우주천문대</div>
-                                    <img src="../images/안전구역-3.jpg" class="map-img">
+                                    <img src="../images/안전구역-3.jpg" alt="우리동네 안전구역지도 : 밀양아리랑우주천문대 이미지" class="map-img">
                                 </td>
                                 <td>
                                     <div class="card-header">📍 신삼문 어린이공원</div>
-                                    <img src="../images/안전구역-4.jpeg" class="map-img">
+                                    <img src="../images/안전구역-4.jpeg" alt="우리동네 안전구역지도 : 신삼문 어린이공원 이미지" class="map-img">
                                 </td>
                             </tr>
                         </tbody>
@@ -110,13 +109,15 @@
             <a href="#">이메일주소무단수집거부</a>
         </p>
         <p class="footer-location" style="color: #555">(43010) 대구광역시 달성군 구지면 창리로11길 93 </p>
-        <p class="source">
+        <p id="name">ⓒ Copyright 1201권아인, 1215장준우</p> <!-- 저작권자 -->
+        <p id="tel">대표 연락처 : 010-3177-9288</p> <!-- 연락처 -->
+        <p class="source"> <!-- 저작권 표기 -->
             <a href="https://www.flaticon.com/kr/free-icons/" title="킥보드 아이콘" target="_blank" style="color: #aaa;">킥보드 아이콘 출처 : Flaticon</a>            
         </p>
         <p class="source">
             <a href="https://noonnu.cc/" title="글꼴 눈누" target="_blank" style="color: #aaa;">글꼴 출처 : 눈누</a>
         </p>
     </footer>
-    <script src="../js/sub2.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
