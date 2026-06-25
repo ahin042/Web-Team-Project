@@ -32,17 +32,6 @@ form fieldset legend {
     background-color: #b5cefd
 }
 
-section fieldset section:last-of-type {
-    border-bottom: none;
-}
-
-fieldset section label {
-    font-size: 0.95rem;
-    color: #616161;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-}
-
 fieldset textarea {
     width: 100%;
     padding: 10px 15px;
